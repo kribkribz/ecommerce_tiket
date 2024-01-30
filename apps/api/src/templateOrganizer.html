@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Add additional styles as needed */
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Email Verification</h1>
+        <p>Hello {{username}},</p>
+        <p>Thank you for registering with our platform. To complete your registration and verify your email address, please click the button below:</p>
+        <a class="button" href="http://localhost:3000/verification/organizer/{{token}}" target="_blank">Verify Email</a>
+        <p> this is your referall code {{referralCode}} </p>
+        <p>If you didn't request this verification, you can safely ignore this email. Your account will not be activated until you verify your email.</p>
+        <p>Best regards,<br>Your Platform Team</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+1. User Authentication and Authorization
+
+   vv  Secure user registration and login system.
+   vv  Role-based access control for 'Customers' and 'Event Organizers'.
+   vv Integration of a referral system for user registrations.
+   vv Mechanisms for referral number generation and tracking.
+
+2. Event Management System
+
+   vv Database schemas to store event information (name, date, time, location, etc.).
+   vv Functionality for organizers to create, edit, and delete events.
+   vv Handling different event types (free or paid).
+
+3. Transaction Processing
+
+    vvSecure payment gateway integration for ticket sales.
+    vv Backend logic to handle ticket purchase transactions.
+    Features to manage discounts and promotions, including time-based discounts.
+
+4. Database for Event Discovery
+
+    vv Efficient storage and retrieval system for events, including details and availability.
+    vv Search functionality with debounce implementation.
+    vv Filters for categories, location, and other event attributes.
+    vvPagination for displaying events.
+
+5. Reviews and Ratings System
+
+    vv Database structure for storing and retrieving user reviews and ratings.
+    vv
+6. Referral and Points System
+
+    vvBackend logic for the referral system, including point accumulation and expiration.
+   vv System for redeeming points as discounts on ticket purchases.
+   vv Tracking and updating point balances and expiry dates.
+
+7. Event Promotion Management
+
+   vv  Functionality for organizers to create and manage discount vouchers.
+   vv  Implementation of referral code-based discounts for attendees.
+
+8. Dashboard for Organizers
+
+    Backend support for a dashboard showing event statistics, attendee lists, and transaction histories.
+    Data aggregation and processing for visual reporting (graphs, charts).
+
+9. Security and Data Protection
+
+    Ensuring data encryption and secure data transmission.
+    Implementing protections against common web vulnerabilities.
+
+10. API Development
+
+    RESTful APIs (or GraphQL if preferred) for frontend-backend communication.
+    Efficient handling of requests and responses.
+
+11. Testing and Quality Assurance
+
+    Unit and integration testing for all backend functionalities.
+    Ensuring robust error handling and edge case management.
+
+12. Miscellaneous
+
+    SQL transaction management for actions involving multiple steps.
+    Infrastructure for sending notifications or confirmations (e.g., email service integration).
+
+13. Deployment and Monitoring
+
+    Setting up a server environment for deployment.
+    Implementing logging and monitoring solutions for ongoing performance tracking.
